@@ -1,5 +1,9 @@
 # Simpla2.0-Template
 
+---
+If you are just using the template project use "npm install" to download all dependencies!
+---
+
 Simpla2.0 How to start:
 
 1.	Install npm (https://docs.npmjs.com/getting-started/installing-node)
