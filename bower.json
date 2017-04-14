@@ -1,0 +1,24 @@
+{
+  "name": "simpla2.0",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Sh4d0w <kampfmagier3@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "simpla-admin": "^1.0.0",
+    "simpla-img": "^1.0.1",
+    "simpla-text": "^1.0.3",
+    "simpla": "^2.0.0",
+    "simpla-paths": "^1.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "simpla2.0",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.0",
+    "serve-static": "^1.12.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}

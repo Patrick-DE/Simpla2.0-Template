@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starter Kit</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- This snippet is used to setup Simpla on your site -->
+	<script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js"></script>
+	<script src="https://unpkg.com/simpla@^2.0.0"></script>
+	<script>
+		Simpla.init('HJBKAryOl');
+	</script>
+
+	<link rel="import" href="/bower_components/simpla-text/simpla-text.html" async>
+	<link rel="import" href="/bower_components/simpla-img/simpla-img.html" async>
+	<link rel="import" href="/bower_components/simpla-admin/simpla-admin.html" async>
+	<link rel="import" href="/bower_components/simpla-paths/simpla-paths.html">
+  </head>
+  <body>
+
+    <section class="splash">
+
+      <!-- Rather than hard-coding the content of this <h1>, we can
+           use <simpla-text> inside it to provide editable content. -->
+      <h1 class="splash__title"><simpla-text path="/splash-title"></simpla-text></h1>
+
+      <!-- Every Simpla element needs a unique ID, which we provide in
+           an sid (Simpla ID) attribute on the element.   -->
+      <h2 class="splash__subtitle"><simpla-text path="/splash-subtitle"></simpla-text></h2>
+
+    </section>
+
+    <section class="features">
+
+      <!-- We can structure our data with the <simpla-path> element.
+           <simpla-path> creates a new namespace, which means the sid's
+           of Simpla elements inside it are scoped to that block  -->
+      <simpla-path path="/feature-1" class="feature">
+
+        <!-- <simpla-img> behaves similarly to an <img/>, except it
+             requires both opening and closing tags -->
+        <simpla-img path="/image" class="feature__img"></simpla-img>
+
+        <!-- When <simpla-text> is on its own it acts like a container,
+             creating <p>s inside itself. When it's inside another textual
+             element (eg: headings) it only allows line-breaks. -->
+        <simpla-text path="/copy" class="feature__copy" inline></simpla-text>
+
+      </simpla-path>
+
+      <simpla-path path="/feature-2" class="feature">
+
+        <!-- We can use the same SIDs here as before, since they
+             are scoped to this <simpla-path>  -->
+        <simpla-img path="/image" class="feature__img"></simpla-img>
+
+        <simpla-text path="/copy" class="feature__copy" inline></simpla-text>
+
+      </simpla-path>
+
+      <!-- Since the content inside a <simpla-path> is determined by
+           its SID, you can change whole sections or pages of content
+           by just wrapping it in a <simpla-path> and changing the SID -->
+      <simpla-path path="/feature-3" class="feature">
+
+        <simpla-img path="/image" class="feature__img"></simpla-img>
+
+        <simpla-text path="/copy" class="feature__copy" inline></simpla-text>
+
+      </simpla-path>
+
+    </section>
+
+    <!-- Next steps:
+          - Open this file in your browser
+          - Add #edit to the end of the URL
+          - Login and start editing content -->
+
+    <!-- Want to learn more? Head to https://simpla.io/docs -->
+
+  </body>
+</html>
