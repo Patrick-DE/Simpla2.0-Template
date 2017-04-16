@@ -41,7 +41,7 @@
 
         <!-- <simpla-img> behaves similarly to an <img/>, except it
              requires both opening and closing tags -->
-        <simpla-img path="/image" class="feature__img"></simpla-img>
+        <Img is="simpla-img" path="/img" class="feature__img"></img>
 
         <!-- When <simpla-text> is on its own it acts like a container,
              creating <p>s inside itself. When it's inside another textual
@@ -54,7 +54,7 @@
 
         <!-- We can use the same SIDs here as before, since they
              are scoped to this <simpla-path>  -->
-        <simpla-img path="/image" class="feature__img"></simpla-img>
+        <Img is="simpla-img" path="/img" class="feature__img"></img>
 
         <simpla-text path="/copy" class="feature__copy" inline></simpla-text>
 
@@ -65,7 +65,7 @@
            by just wrapping it in a <simpla-path> and changing the SID -->
       <simpla-path path="/feature-3" class="feature">
 
-        <simpla-img path="/image" class="feature__img"></simpla-img>
+        <Img is="simpla-img" path="/img" class="feature__img"></img>
 
         <simpla-text path="/copy" class="feature__copy" inline></simpla-text>
 
