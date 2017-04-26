@@ -25,7 +25,7 @@ After that it looks similarly to this (if not open it in the Editor and change i
 I want simpla-text and simpla-img and of course the edit function so I am typing “bower install simpla-text simpla-img simpla-admin --save”
 10.	After that, you you can start coding your website with the following template: 
 
-![Simpla2](https://cloud.eisenschmidt.family/s/3C8e2PhOhlnsicE/download)
+![Simpla2](https://cloud.eisenschmidt.family/s/mcj9Cu5dAeAq5mv/download)
 
 <If you followed Step 6,7 then you can now run “npm start” and the website should be served to 127.0.0.1:8080>
 
