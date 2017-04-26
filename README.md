@@ -29,6 +29,9 @@ I want simpla-text and simpla-img and of course the edit function so I am typing
 
 <If you followed Step 6,7 then you can now run “npm start” and the website should be served to 127.0.0.1:8080>
 
+Troubleshooting:
+If your editmode (#edit) or image does not load properly delete the 'async' behind the imports of the elements! 
+
 Source:
 https://www.simpla.io/docs/guides/migrating-from-v1#install-elements  
 https://www.npmjs.com/package/simpla
