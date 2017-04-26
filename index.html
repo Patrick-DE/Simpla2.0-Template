@@ -13,9 +13,9 @@
 		Simpla.init('HJBKAryOl');
 	</script>
 
-	<link rel="import" href="/bower_components/simpla-text/simpla-text.html" async>
-	<link rel="import" href="/bower_components/simpla-img/simpla-img.html" async>
-	<link rel="import" href="/bower_components/simpla-admin/simpla-admin.html" async>
+	<link rel="import" href="/bower_components/simpla-text/simpla-text.html">
+	<link rel="import" href="/bower_components/simpla-img/simpla-img.html">
+	<link rel="import" href="/bower_components/simpla-admin/simpla-admin.html">
 	<link rel="import" href="/bower_components/simpla-paths/simpla-paths.html">
   </head>
   <body>
@@ -41,7 +41,7 @@
 
         <!-- <simpla-img> behaves similarly to an <img/>, except it
              requires both opening and closing tags -->
-        <Img is="simpla-img" path="/img" class="feature__img"></img>
+        <img is="simpla-img" path="/img" class="feature__img"></img>
 
         <!-- When <simpla-text> is on its own it acts like a container,
              creating <p>s inside itself. When it's inside another textual
@@ -54,7 +54,7 @@
 
         <!-- We can use the same SIDs here as before, since they
              are scoped to this <simpla-path>  -->
-        <Img is="simpla-img" path="/img" class="feature__img"></img>
+        <img is="simpla-img" path="/img" class="feature__img"></img>
 
         <simpla-text path="/copy" class="feature__copy" inline></simpla-text>
 
@@ -65,7 +65,7 @@
            by just wrapping it in a <simpla-path> and changing the SID -->
       <simpla-path path="/feature-3" class="feature">
 
-        <Img is="simpla-img" path="/img" class="feature__img"></img>
+        <img is="simpla-img" path="/img" class="feature__img"></img>
 
         <simpla-text path="/copy" class="feature__copy" inline></simpla-text>
 

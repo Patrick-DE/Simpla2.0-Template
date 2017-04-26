@@ -16,7 +16,6 @@
   ],
   "dependencies": {
     "simpla-admin": "^1.0.0",
-    "simpla-img": "^1.0.1",
     "simpla-text": "^1.0.3",
     "simpla": "^2.0.0",
     "simpla-paths": "^1.0.0"
